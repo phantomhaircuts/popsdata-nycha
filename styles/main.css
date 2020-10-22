@@ -12,9 +12,13 @@ nav {
     background-color: #010114;
 }
 nav li {
+    display: inline-block;
     color: white;
     list-style-type: none;
     font-family: 'Space Mono', monospace;
+}
+nav h1 {
+    display: inline;
 }
 .map-container { width: 50%;}
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
