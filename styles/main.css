@@ -1,4 +1,8 @@
-body { margin: 0; padding: 0; }
+body { 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+}
 nav {
     position: absolute;
     top: 0; 
@@ -21,5 +25,34 @@ nav h1 {
     display: inline;
     font-size: clamp(1.1rem, 3vw, 2rem);
 }
+
+#modal {
+    position: absolute; 
+    font-family: Helvetica, sans-serif;
+    top: 100px; 
+    bottom: 0; 
+    width: 100%;
+    background-color: #0b2634;
+    color: white;
+    z-index: 9;
+    padding: 3rem;
+}
+
 .map-container { width: 50%;}
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+.hidden {
+    display: none;
+}
+
+.box-one {
+    height: 10px;
+    width: 300px;
+    background: linear-gradient(to left, white, royalblue 50%, cyan 75%, lime 75%, yellow, red 100%);
+}
+
+.box-two {
+    height: 10px;
+    width: 300px;
+    background: linear-gradient(to left, #940085, royalblue 50%, #6c043c 75%, #ff00a6 75%, #d900ff, #940085 100%);
+}

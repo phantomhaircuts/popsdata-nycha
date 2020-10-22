@@ -15,11 +15,18 @@
         <nav>
             <ul>
                 <li><h1>POPS Data + NYCHA Developments</h1></li>
-                <li>/Information</li>
+                <li>/<button  id="key">Information</button></li>
             </ul>
         </nav>
         <div class="map-container">
-            <div id="map"></div>
+            <div id="map" onclick="myFunction()"></div>
+        </div>
+        <div id="modal" class="hidden">
+            <h1>Keys</h1>
+            <h2>POPS:</h2>
+            <div class="box-one"></div>
+            <h2>NYCHA:</h2>
+            <div class="box-two"></div>
         </div>
         <script src="scripts/script.js" async defer></script>
         <script src="scripts/maps.js" async defer></script>
